@@ -3,34 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="NFC Google Review stand by Danechka Belyi.">
+  <meta name="description" content="NFC Google Review stands by Danechka Belyi.">
   <title>NFC Review Stand · Danechka Belyi</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#contact">Skip to contact</a>
+  <a class="skip-link" href="#contact" data-i18n="skip-to-contact">Skip to contact</a>
   <main>
     <section class="hero" id="top" aria-labelledby="hero-title">
       <header class="topbar">
         <a class="wordmark" href="#top"><span>DB</span> Danechka Belyi</a>
-        <a class="header-link" href="#contact">Get in touch <b>↘</b></a>
+        <div class="topbar-actions">
+          <nav class="language-switcher" aria-label="Language selector" data-i18n-aria-label="language-selector">
+            <button class="language-option" type="button" data-language="en" aria-pressed="true" aria-label="English"><span aria-hidden="true">🇬🇧</span><span>EN</span></button>
+            <button class="language-option" type="button" data-language="pt" aria-pressed="false" aria-label="Português"><span aria-hidden="true">🇵🇹</span><span>PT</span></button>
+          </nav>
+          <a class="header-link" href="#contact"><span data-i18n="get-in-touch">Get in touch</span> <b>↘</b></a>
+        </div>
       </header>
       <div class="hero-layout">
         <div class="hero-copy">
-          <p class="eyebrow"><i></i> NFC review experience</p>
-          <h1 id="hero-title">Make a great<br>review feel <em>natural.</em></h1>
-          <p class="lead">A simple, memorable way for guests to leave your business a Google review. No searching, no awkward prompts, no printed QR code everywhere.</p>
-          <div class="benefit-grid" aria-label="NFC review stand benefits">
-            <article><span>01</span><h2>People follow people</h2><p>Guests choose where to go by seeing where others have been and left a high rating. More genuine positive reviews make that choice easier.</p></article>
-            <article><span>02</span><h2>Beyond a QR code</h2><p>QR codes are everywhere. An NFC tap feels fresh, effortless, and gives your guests a small signal that your business is modern.</p></article>
+          <p class="eyebrow"><i></i> <span data-i18n="nfc-review-experience">NFC review experience</span></p>
+          <h1 id="hero-title"><span data-i18n="hero-line-one">Make a great</span><br><span data-i18n="hero-line-two">review feel <em>natural.</em></span></h1>
+          <p class="lead" data-i18n="hero-lead">A simple, memorable way for guests to leave your business a Google review. No searching, no awkward prompts, and no printed QR codes everywhere.</p>
+          <div class="benefit-grid" aria-label="NFC review stand benefits" data-i18n-aria-label="benefits-label">
+            <article><span>01</span><h2 data-i18n="benefit-one-title">People follow people</h2><p data-i18n="benefit-one-copy">Guests often choose where to go based on other people’s experiences and ratings. More genuine positive reviews make that decision easier.</p></article>
+            <article><span>02</span><h2 data-i18n="benefit-two-title">Beyond a QR code</h2><p data-i18n="benefit-two-copy">QR codes are everywhere. An NFC tap feels fresh and effortless, showing your guests that your business is modern.</p></article>
           </div>
-          <div class="price-list" aria-label="Pricing">
-            <div><span>1 stand</span><strong>€35</strong></div>
-            <div><span>4 stands</span><strong>€100</strong><small>best value</small></div>
+          <div class="price-list" aria-label="Pricing" data-i18n-aria-label="pricing-label">
+            <div><span data-i18n="one-stand">1 stand</span><strong>€35</strong></div>
+            <div><span data-i18n="four-stands">4 stands</span><strong>€100</strong><small data-i18n="best-value">best value</small></div>
           </div>
         </div>
-        <div class="product-stage" aria-label="Rotatable 3D model of a Google Review NFC table stand">
-          <div class="model-wrap" data-model tabindex="0" role="slider" aria-label="Rotate the review stand left or right" aria-valuemin="-180" aria-valuemax="180" aria-valuenow="-18">
+        <div class="product-stage" aria-label="Rotatable 3D model of a Google Review NFC table stand" data-i18n-aria-label="product-stage-label">
+          <div class="model-wrap" data-model tabindex="0" role="slider" aria-label="Rotate the review stand left or right" data-i18n-aria-label="model-rotate-label" aria-valuemin="-180" aria-valuemax="180" aria-valuenow="-18">
             <div class="model-shadow"></div>
             <div class="stand is-spinning">
               <div class="stand-panel">
@@ -53,13 +59,13 @@
 
     <section class="contact" id="contact" aria-labelledby="contact-title">
       <div class="contact-title">
-        <p class="eyebrow"><i></i> Danechka Belyi</p><h2 id="contact-title">A better review<br>starts with a <em>tap.</em></h2>
+        <p class="eyebrow"><i></i> Danechka Belyi</p><h2 id="contact-title"><span data-i18n="contact-title-one">A better review</span><br><span data-i18n="contact-title-two">starts with a <em>tap.</em></span></h2>
       </div>
       <div class="contact-copy">
-        <p>Ready to give your guests a modern, frictionless way to share their experience? Choose the contact channel that feels right for you.</p>
+        <p data-i18n="contact-copy">Ready to give your guests a modern, effortless way to share their experience? Choose the contact method that works best for you.</p>
         <div class="contact-person">
           <img src="assets/portrait.jpg" alt="Danechka Belyi">
-          <span><small>Your NFC review stand</small><strong>Danechka Belyi</strong></span>
+          <span><small data-i18n="contact-person-label">Your NFC review stand</small><strong>Danechka Belyi</strong></span>
         </div>
         <div class="contact-list">
           <a href="https://wa.me/380674575314" target="_blank" rel="noreferrer"><span class="icon whatsapp" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.83 9.83 0 0 0-8.52 14.74L2 22l5.42-1.42A9.82 9.82 0 1 0 12.04 2Zm0 17.86a8.03 8.03 0 0 1-4.1-1.12l-.29-.17-3.22.84.86-3.13-.19-.32a8.07 8.07 0 1 1 6.94 3.9Zm4.42-6.03c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06a6.58 6.58 0 0 1-1.94-1.2 7.27 7.27 0 0 1-1.34-1.67c-.14-.24-.02-.37.1-.49l.37-.43c.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.4h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.13 3.65.58.25 1.03.4 1.38.51.58.18 1.1.15 1.51.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"/></svg></span><span><small>WhatsApp</small><strong>+380 67 457 5314</strong></span><b>↗</b></a>
@@ -67,7 +73,7 @@
           <a href="https://instagram.com/danechkabelyi" target="_blank" rel="noreferrer"><span class="icon instagram" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></svg></span><span><small>Instagram</small><strong>@danechkabelyi</strong></span><b>↗</b></a>
           <a href="mailto:danechkabelyi@gmail.com"><span class="icon mail" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></span><span><small>Email</small><strong>danechkabelyi@gmail.com</strong></span><b>↗</b></a>
         </div>
-        <button class="copy-contact" data-copy="+380674575314">Copy phone number <b>⧉</b></button>
+        <button class="copy-contact" data-copy="+380674575314"><span data-i18n="copy-phone">Copy phone number</span> <b>⧉</b></button>
       </div>
       <footer><span>© <span id="year"></span> Danechka Belyi</span><span>Google Reviews · NFC</span></footer>
     </section>
